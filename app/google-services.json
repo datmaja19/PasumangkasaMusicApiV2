@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "709169682633",
+    "firebase_url": "https://pasummobile.firebaseio.com",
+    "project_id": "pasumangkasa",
+    "storage_bucket": "pasummobile.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:709169682633:android:97960c6e0176b710d49518",
+        "android_client_info": {
+          "package_name": "com.pasumangkasa.freemusicdownloadtubity"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "709169682633-akv5a7ghoaggu89lbcdb79rp63tkqhd8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCgr59SFO7XavWzE5irKQVAQZCN5bm7p6Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "709169682633-akv5a7ghoaggu89lbcdb79rp63tkqhd8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/PasumangkasaMusicApiV2.iml" filepath="$PROJECT_DIR$/PasumangkasaMusicApiV2.iml" group="PasumangkasaMusicApiV2" />
+      <module fileurl="file://$PROJECT_DIR$/SeekArc_library/SeekArc_library.iml" filepath="$PROJECT_DIR$/SeekArc_library/SeekArc_library.iml" group="PasumangkasaMusicApiV2/SeekArc_library" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="PasumangkasaMusicApiV2/app" />
+      <module fileurl="file://$PROJECT_DIR$/equalizerview/equalizerview.iml" filepath="$PROJECT_DIR$/equalizerview/equalizerview.iml" group="PasumangkasaMusicApiV2/equalizerview" />
+    </modules>
+  </component>
+</project>

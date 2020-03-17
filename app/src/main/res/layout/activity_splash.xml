@@ -1,0 +1,64 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/layout_bg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgplayer"
+    android:fitsSystemWindows="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/img_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/logo_splash" />
+
+        <com.pasumangkasa.freemusicdownloadtubity.view.CircularProgressBar
+            android:id="@+id/progressBar1"
+            android:layout_width="@dimen/height_process_bar"
+            android:layout_height="@dimen/height_process_bar"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/dialog_margin"
+            android:visibility="invisible"
+            app:cpb_color="@color/progressbar_color"
+            app:cpb_stroke_width="@dimen/stroke_process" />
+
+        <TextView
+            android:id="@+id/progressBarText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/backgradient"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/progressBar1"
+            android:text="SHOWING ADS"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textSize="30dp"
+            android:visibility="invisible"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/tv_loading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        android:singleLine="true"
+        android:text="@string/info_copyright"
+        android:textColor="@color/main_color_text"
+        android:textSize="@dimen/text_size_subhead" />
+
+</RelativeLayout>
